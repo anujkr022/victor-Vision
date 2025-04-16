@@ -1,0 +1,440 @@
+body{
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+     font-family: "Cookie", serif;
+     font-weight: 400;
+     font-style: normal;
+    
+    font-style: normal;
+    letter-spacing: 1px;  
+}
+
+.nav-item a{
+	color: white;
+	text-decoration: none;
+	margin-inline: 15px;
+	position: relative;
+	top: 5px;
+     font-family: "Nova Square", serif;
+	font-weight: 400;
+}
+.but{
+     background-color: indianred;
+     padding: 12px 24px;
+     border-radius: 5px;
+     text-decoration: none;
+     color: black;
+}
+.but:hover{
+    background-color: red;
+   transition: 1s;
+   color: white;
+}
+.plus{
+     font-size: 30px;
+     color: yellowgreen;
+     width:0px;
+     animation: rotation 6s infinite linear;
+}
+.plus1{
+     font-size: 30px;
+     color: yellowgreen;
+     width:  0px;
+  animation: rotation 6s infinite linear;
+  position: relative;
+  bottom: 10px;
+  left: 150px;
+
+}
+.block h1{
+	color: indianred;
+	font-weight: 700;
+	font-size: 22px;
+	padding-top: 40px;
+}
+.block h2{
+       -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    color: transparent;
+    position: relative;
+    margin: 20px 0;
+    display: block;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.block p{
+	color: grey;
+	 
+}
+ 
+.features p{
+   color: red;
+   
+}
+.features span{
+     color: grey;
+}
+.features h3{
+	color: white;
+	font-size: 30px;
+	font-weight: 700;
+     font-family: 'Montserrat', sans-serif;
+}
+.transparent{
+     background-color:black;
+     height: 250px;
+     width: 100%;
+     border-radius: 20px;
+     margin: 0;
+}
+.transparent img{
+     background-color: darkblue;
+     border: 1px solid grey;
+     border-radius: 50%;
+     padding: 10px;
+     position: relative;
+     top: 30px;
+
+}
+.transparent h3{
+     color: grey;
+     font-size: 20px;
+     padding-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.transparent p{
+     color: red;
+     padding: 15px;
+}
+.do{
+     font-size: 16px;
+     color: white;
+}
+.do a{
+     color: red;
+}
+.recode h3{
+  color:  white;
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  left: 20px;
+}
+.recode p{
+     color: red;
+     position: relative;
+    left: 20px;
+}
+.recode span{
+     color: grey;
+     font-size: 16px;
+     line-height: 30px;
+     position: relative;
+    left: 20px;
+}
+.value {
+    background-color: #212529;
+    padding: 15px 25px;
+    display: inline-block;
+    margin : 5px;
+    position: relative;
+    left: 10px;
+} 
+.line{
+     border-bottom: 1px  solid #fffcfc;
+}
+.number img{
+     background-color:rgb(3, 1, 26);
+     padding: 20px;
+     border-radius: 10px;
+      
+}
+.join{
+     background-color: darkblue;
+     height: 30;
+     width: 30px;
+     color: red;
+     position: relative;
+     top: 10px;
+}.join:hover{
+     background-color: grey;
+}
+
+.dot{
+     border-right: 3px  dotted grey;
+     height: 25px;
+     position: relative;
+     right: 130px;
+     
+}
+.one{
+     border-left: 3px  dotted grey;
+     border-top: 3px dotted grey;
+     height: 26px  ;
+     float: center;
+     position: relative;
+     left: 140px;
+      
+}
+.title h3 {
+  color: white;
+  padding-top: 40px;
+  font-size: 25px; 
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.description  p{
+  color: grey;
+  
+
+}
+ .story p{
+     color: red;
+     
+ }
+ .story h3{
+     color: white;
+     font-size: 30px;
+     font-weight: 800;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ .carousel-indicators button{
+     position: relative;
+     top: 50px;
+     right: 180px;
+
+ }
+  .our p{
+     color:  grey;
+     position: relative;
+     top: 100px;
+ }
+ .our h3{
+     color: white;
+     font-size: 40px;
+     font-weight: 700;
+     position: relative;
+     top: 100px;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ .our b{
+     color: red;
+ }
+
+.checked {
+  color:orange;
+}
+
+.jonson b{
+     color: white;
+} 
+.jonson p{
+     color: grey;
+}
+.jonson span{
+     color: grey;
+}
+.faq p {
+   
+   color: red;
+} 
+.faq h3{
+     color: white;
+     font-size: 30px;
+     font-weight: 700;
+     font-family: 'Montserrat', sans-serif;
+}
+.faq span{
+     color: grey;
+     
+}
+.accordion-button:after{
+     background-color: grey;
+     padding: 10px;
+}
+ 
+.what{
+     color:  indianred;
+     font-size: 10px;
+}
+.company p{
+   color: grey;
+   
+    padding-top: 30px;
+}
+ 
+.follow{
+     margin-inline: 10px;
+
+} 
+.link h4{
+  color: white;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+.link li{
+     list-style: none;
+}
+.link li a{
+     text-decoration: none;
+     color: grey;
+     
+     line-height: 40px;
+}
+.link li a:hover{
+     color: red;
+     transition: 1s;
+}
+.address h4{
+   color: white;
+  font-size: 24px; 
+  font-family: 'Montserrat', sans-serif; 
+}
+.address strong {
+     color: grey;
+     
+     line-height: 30px;
+}
+.copy p{
+     color: white;
+     font-size: 16px;
+     padding-top: 10px;
+}
+
+
+.heart span{
+    color: grey ;
+}
+.heart h1{
+     color: white;
+     font-size: 30px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+}
+.heart p{
+     color: indianred ;
+     padding-top: 50px;
+
+}
+.about p{
+     color: grey;
+     font-style: italic;
+
+
+}
+.about h1{
+     color: white;
+     font-size: 22px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+       padding-top: 20px;
+ }
+.about h1 span{
+     color: indianred;
+}
+.feed{
+     color: white;
+     font-size: 22px;
+     font-family: 'Montserrat', sans-serif;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 992px) {
+  
+    .navbar .dropdown-menu-end{ 
+         color:white ; 
+        left:auto; 
+        padding: 20px;
+
+}
+
+.navbar .nav-item .dropdown-menu{ 
+     display:block; 
+     opacity: 0;  
+     visibility: hidden; 
+     transition:.5s; 
+     margin-top: 0;
+     line-height: 30px;
+     
+    }
+ 
+
+.navbar .dropdown-menu.fade-up a{ 
+    top:80%; 
+    transform-origin: 0% 0%; 
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500; 
+    color: black; 
+     font-size: 14px;
+     position: relative;
+     right: 20px;
+}
+
+.navbar .dropdown-menu.fade-up{
+     top:180%; 
+    }
+
+.navbar .nav-item:hover .dropdown-menu{
+     transition: .4s; 
+     opacity:1; 
+     visibility:visible; 
+     top:100%; 
+     transform: rotateX(0deg);
+      
+    }
+}
+@media all and (max-width: 602px) {
+     .nav-item{
+          line-height: 40px;
+     }
+     .carousel-indicators button{
+          position: relative;
+          left: 0px;
+}
+.dot{
+     border-right: 3px  dotted grey;
+     height: 25px;
+     position: relative;
+     right: 150px;
+      
+}
+.one{
+     border-left: 3px  dotted grey;
+     border-top: 3px dotted grey;
+     height: 26px  ;
+     float: center;
+     position: relative;
+     left: 100px;
+     width: 220px;
+      
+}
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ 
